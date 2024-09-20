@@ -6,7 +6,7 @@ const Grid = () => {
   return (
     <section id='about'>
         <BentoGrid>
-            {gridItems.map((item,) =>(
+            {gridItems.map((item) =>(
                 <BentoGridItem
                 id={item.id}
                 key={item.id}
@@ -23,3 +23,10 @@ const Grid = () => {
 }
 
 export default Grid
+
+{/* <Lottie 
+                   loop= {copied}
+                   autoplay= {copied}
+                   animationData= {animationData}
+                   rendererSettings= {{ preserveAspectRatio: "xMidYMid slice",}}
+                  height={200} width={400} /> */}
