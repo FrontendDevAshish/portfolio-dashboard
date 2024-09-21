@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import {
   motion,
   useAnimationFrame,
@@ -7,13 +7,13 @@ import {
   useMotionValue,
   useTransform,
 } from "framer-motion";
-import { useRef } from "react";
 import { cn } from "@/app/lib/utils";
 
+// Fix the 'any' type by using 'React.ElementType' for 'as', and 'unknown' for other props
 export function Button({
   borderRadius = "1.75rem",
   children,
-  as: Component = "button",
+  as: Component = "button", // Updated to use 'React.ElementType'
   containerClassName,
   borderClassName,
   duration,
@@ -22,17 +22,16 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
+  as?: React.ElementType; // Replaced 'any' with 'React.ElementType'
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown; // Replaced 'any' with 'unknown' for additional props
 }) {
   return (
     <Component
       className={cn(
-        // remove h-16 w-40, add  md:col-span-2
         "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2 md:row-span-1",
         containerClassName
       )}
@@ -70,6 +69,7 @@ export function Button({
   );
 }
 
+// Fix the 'any' type in 'MovingBorder' component
 export const MovingBorder = ({
   children,
   duration = 2000,
@@ -81,9 +81,9 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  [key: string]: unknown; // Replaced 'any' with 'unknown' for additional props
 }) => {
-  const pathRef = useRef<any>();
+  const pathRef = useRef<SVGRectElement | null>(null); // Use 'SVGRectElement' instead of 'any'
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
@@ -121,7 +121,7 @@ export const MovingBorder = ({
           height="100%"
           rx={rx}
           ry={ry}
-          ref={pathRef}
+          ref={pathRef} // Correctly typed ref
         />
       </svg>
       <motion.div
