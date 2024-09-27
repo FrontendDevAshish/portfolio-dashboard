@@ -1,8 +1,13 @@
 export const navItems = [
+
     { name: "Home", link: "#home" },
+
     { name: "About", link: "#about" },
+
     { name: "Projects", link: "#projects" },
+
     { name: "Testimonials", link: "#testimonials" },
+    
     { name: "Contact", link: "#contact" },
     
   ];
@@ -18,6 +23,7 @@ export const navItems = [
       img: "/b1.svg",
       spareImg: "",
     },
+
     {
       id: 2,
       title: "I'm very flexible with time zone communications",
@@ -28,6 +34,7 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
+
     {
       id: 3,
       title: "My tech stack",
@@ -38,6 +45,7 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
+
     {
       id: 4,
       title: "Tech enthusiast with a passion for development.",
@@ -59,6 +67,7 @@ export const navItems = [
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
+
     {
       id: 6,
       title: "Do you want to start a project together?",
@@ -184,7 +193,7 @@ export const navItems = [
       id: 2,
       title: "Mobile App Dev - JSM Tech",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
