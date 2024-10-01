@@ -24,9 +24,3 @@ const Grid = () => {
 
 export default Grid
 
-{/* <Lottie 
-                   loop= {copied}
-                   autoplay= {copied}
-                   animationData= {animationData}
-                   rendererSettings= {{ preserveAspectRatio: "xMidYMid slice",}}
-                  height={200} width={400} /> */}
