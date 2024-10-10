@@ -15,9 +15,9 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: " Frontend Developer with a Passion for Collaboration. Specializing in React & Next.js to Deliver Engaging User Experiences",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] w-[45vw]",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[56vh] w-[36vw]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
@@ -85,7 +85,7 @@ export const navItems = [
       id: 1,
       title: "Data dashboard",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      img: "/data-dashboard.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "/ui.earth.com",
     },
