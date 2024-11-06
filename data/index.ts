@@ -107,11 +107,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Versus Mode: Products",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      title: "TicTacToe",
+      des: "A responsive and interactive Tic Tac Toe game built with React for the game logic and Framer Motion for smooth, animated transitions ",
+      img: "/tic-tac.png",
+      iconLists: ["re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+      link: "https://tic-tac-6zukaj8ok-ashishs-projects-89a736ae.vercel.app",
     },
   ];
   
