@@ -87,7 +87,7 @@ export const navItems = [
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/data-dashboard.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://next-data-dashboard.vercel.app/",
     },
     {
       id: 2,
@@ -118,7 +118,7 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Ashish was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating \n with \n Ashish \n was an absolute pleasure.\n"+"#################################################### \n"+ "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxt.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
