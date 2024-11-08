@@ -101,9 +101,9 @@ export const navItems = [
       id: 3,
       title: "Portfolio for a freelancer",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      img: "/free-port.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://portfolio-kappa-nine-86.vercel.app",
     },
     {
       id: 4,
