@@ -10,31 +10,26 @@ const Approach = () => {
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
-      {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Collaborated with cross-functional teams to define project goals, user needs, and key functionalities, ensuring a clear roadmap and alignment with business objectives."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-pink-800 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Iterative Feedback"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Led front-end development, coding responsive and interactive components while providing regular progress updates and integrating stakeholder feedback to maintain alignment with the vision."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-orange-700 rounded-3xl overflow-hidden"
             colors={[
               // change the colors of the
               [255, 166, 158],
@@ -45,15 +40,13 @@ const Approach = () => {
           
         </Card>
         <Card
-          title="Development & Launch"
+          title="Finalization & Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Converted designs into high-quality code, optimizing for performance and user experience. Successfully launched the project, ensuring seamless functionality and alignment with project objectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-teal-600 rounded-3xl overflow-hidden"
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
         </Card>
